@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/splide.min.css">
+    <link rel="stylesheet" href="assets/css/ratings.css">
+    <link rel="stylesheet" href="assets/css/accordeon.css">
+    <link rel="stylesheet" href="../PulsArt/assets/css/style.css">
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <title>PulsArt</title>
+</head>
+
+<body class="">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(94535307, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/94535307" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter end-->
+
+    <div class="bgFilter"></div>
+
+    <div class="arrow-7" id="myBtn_arrow" title="Go to top">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="card-theme animate__animated animate__bounceInRight">
+        <!-- <h5 class="turnOntheLight">Включить свет</h5>
+        <h5 class="goingDark">Войти во тьму</h5> -->
+
+        <div id="switcher">
+            <input type="checkbox" class="checkbox" id="darkThemeToggler">
+            <label for="darkThemeToggler" class="checkbox-label">
+
+
+
+                <svg fill="#ff9900" height="20px" width="20px" version="1.1" id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 457.32 457.32" xml:space="preserve">
+                    <g id="XMLID_467_">
+                        <path id="XMLID_922_" d="M228.66,112.692c-63.945,0-115.968,52.022-115.968,115.967c0,63.945,52.023,115.968,115.968,115.968
+                		s115.968-52.023,115.968-115.968C344.628,164.715,292.605,112.692,228.66,112.692z" />
+                        <path id="XMLID_1397_" d="M401.429,228.66l42.467-57.07c2.903-3.9,3.734-8.966,2.232-13.59c-1.503-4.624-5.153-8.233-9.794-9.683
+                		l-67.901-21.209l0.811-71.132c0.056-4.862-2.249-9.449-6.182-12.307c-3.934-2.858-9.009-3.633-13.615-2.077l-67.399,22.753
+                		L240.895,6.322C238.082,2.356,233.522,0,228.66,0c-4.862,0-9.422,2.356-12.235,6.322l-41.154,58.024l-67.4-22.753
+                		c-4.607-1.555-9.682-0.781-13.615,2.077c-3.933,2.858-6.238,7.445-6.182,12.307l0.812,71.132l-67.901,21.209
+                		c-4.641,1.45-8.291,5.059-9.793,9.683c-1.503,4.624-0.671,9.689,2.232,13.59l42.467,57.07l-42.467,57.07
+                		c-2.903,3.9-3.734,8.966-2.232,13.59c1.502,4.624,5.153,8.233,9.793,9.683l67.901,21.208l-0.812,71.132
+                		c-0.056,4.862,2.249,9.449,6.182,12.307c3.934,2.857,9.007,3.632,13.615,2.077l67.4-22.753l41.154,58.024
+                		c2.813,3.966,7.373,6.322,12.235,6.322c4.862,0,9.422-2.356,12.235-6.322l41.154-58.024l67.399,22.753
+                		c4.606,1.555,9.681,0.781,13.615-2.077c3.933-2.858,6.238-7.445,6.182-12.306l-0.811-71.133l67.901-21.208
+                		c4.641-1.45,8.291-5.059,9.794-9.683c1.502-4.624,0.671-9.689-2.232-13.59L401.429,228.66z M228.66,374.627
+                		c-80.487,0-145.968-65.481-145.968-145.968S148.173,82.692,228.66,82.692s145.968,65.48,145.968,145.967
+                		S309.147,374.627,228.66,374.627z" />
+                    </g>
+                </svg>
+
+                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z"
+                        stroke="#a0deff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="ball"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="card card-first animate animate__fadeInDownBig">
+        <video preload="auto" playsinline="" autoplay="" loop="" muted="" data-video="0">
+            <source src="assets/video/PulsArt_teaser_cuted_LQ.mp4" type="video/mp4">
+        </video>
+        <div class="card-first__overlayContent">
+            <div class="textContent textContent__overlay">
+                <h1>Премьера</h1>
+                <h3>спектакль-концерт "Секреты Терпсихоры и неоклассики"</h3>
+            </div>
+            <a class="button" href="https://dalismuse.timepad.ru/event/2478867/#register" style="color: inherit"
+                target="_blank">
+                <p>купить билет</p>
+            </a>
+        </div>
+
+    </div>
+    <div class="card card-second animate animate__fadeInRightBig">
+        <img class="card__image" src="assets/img/from_Anna/Central_Hall_Croped.jpg" alt="">
+        <div class="textContent textContent-secondCard">
+            <h2>Puls Art</h2>
+            <p>Необычный круговой и кубический формат
+                концертов и спектаклей при свечах, совмещающий
+                в себе театр, современный балет, графические
+                технологии и музыку. Симфония света и искусства.</p>
+        </div>
+    </div>
+    <div class="card card-third animate animate__fadeInLeftBig">
+
+        <div class="textContent textContent-thirdCard">
+            <h2>Зрительский опыт</h2>
+            <p>Новый запоминающийся эстетический опыт. Зрители
+                подгружаются в действие за счет близости
+                происходящего на сцене и сливаются с эмоциями
+                артистов. Незабываемый отрыв от реальности и
+                путешествие в мир красоты.</p>
+        </div>
+        <img class="card__image" src="assets/img/from_Anna/Screenshot_20230721_152040_Facebook.jpg" alt="">
+    </div>
+    <div class="card card-reviews animate animate__fadeInBottomRight">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                    <div class="arrow-7" id="myBtn_prev" title="Go to prev">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    <div class="arrow-7" id="myBtn_next" title="Go to next">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="slider__card" id="1">
+                            <h3 class="card__title">Татьяна</h3>
+                            <p class="card__text">Вау, показ в мой день рождения. Мистическая комбинация 09.09.1990.
+                                Обязательно пойду!
+                            </p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="2">
+                            <h3 class="card__title">Луис</h3>
+                            <p class="card__text">Excelente combinación. Música clásica, baile clásico y un ambiente
+                                propicio para este video. Felicitaciones. Me gustaron
+                                muchos las transiciones usadas, le da una armonía increíble al video.
+                            </p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="3">
+                            <h3 class="card__title">Илья</h3>
+                            <p class="card__text">Это должно быть потрясающее представление!
+                            </p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="4">
+                            <h3 class="card__title">Анна</h3>
+                            <p class="card__text">Ждем в Санкт-Петербурге в ноябре!</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="5">
+                            <h3 class="card__title">Мария</h3>
+                            <p class="card__text">Как же это красиво! Завораживает! Что может быть прекрасней живой
+                                музыки и танца! Это магия!</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="3">
+                            <h3 class="card__title">Егор</h3>
+                            <p class="card__text">Прекрасный тизер! Ждем премьеру с нетерпением</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="5">
+                            <h3 class="card__title">Юлия</h3>
+                            <p class="card__text">Билеты уже купили! Идем всем отделом бухгалтерии.</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="1">
+                            <h3 class="card__title">Ирина</h3>
+                            <p class="card__text">Восхитительно!!! Глубина, эстетика, энергия, музыка…</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="2">
+                            <h3 class="card__title">Елена</h3>
+                            <p class="card__text">Очень интересно будет посмотреть на такой формат. Название мне уже
+                                нравится!</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="4">
+                            <h3 class="card__title">Влад</h3>
+                            <p class="card__text">Прекрасная команда профессионалов выпускает проект. Удачи вам!</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <!-- <li class="splide__slide">
+                        <div class="slider__card" id="2">
+                            <h3 class="card__title">Daniel Juárez</h3>
+                            <p class="card__text">The quartet was amazing! We love the back stories for the theme songs
+                                and audience participation</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="1">
+                            <h3 class="card__title">Danilo Mecozzi</h3>
+                            <p class="card__text">Concert was terrific! Very talented group! This was my first Fever
+                                event, and I will seek more in the future!</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="5">
+                            <h3 class="card__title">Claudia Sánchez</h3>
+                            <p class="card__text">Fantastic performance! Beautiful setting and ambiance! This is my
+                                first experience and I’m definitely going to return.</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="4">
+                            <h3 class="card__title">Rosenildo Da Silva</h3>
+                            <p class="card__text">A wonderful evening! The venue was gorgeous and the performance was
+                                beautiful. The Fever staff was courteous and helpful
+                                and followed all safety procedures for COVID.</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider__card" id="3">
+                            <h3 class="card__title">Catarina Caetano</h3>
+                            <p class="card__text">It was such a wonderful experience. such a Magical night, I will
+                                recommend this show to my friends and family.</p>
+                            <div class="rating-stars">
+                                <input type="radio" name="rating" id="rs0"><label class="label-star" for="rs0"></label>
+                                <input type="radio" name="rating" id="rs1"><label class="label-star" for="rs1"></label>
+                                <input type="radio" name="rating" id="rs2"><label class="label-star" for="rs2"></label>
+                                <input type="radio" name="rating" id="rs3"><label class="label-star" for="rs3"></label>
+                                <input type="radio" name="rating" id="rs4"><label class="label-star" for="rs4"></label>
+                                <input type="radio" name="rating" id="rs5" checked><label class="label-star"
+                                    for="rs5"></label>
+                                <span class="number"></span>
+                            </div>
+
+                        </div>
+                    </li> -->
+
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="card afisha-list animate animate__fadeInBottomLeft">
+
+        <div id="accordion-1">
+            <div class="head active animate__ animate__bounceInUp wow">
+
+                <div class="afisha-list__item animate__ animate__bounceInUp wow">
+                    <!-- <i class="fas fa-angle-down arrow"></i> -->
+                    <div class="arrow-7 arrow" id="myBtn_arrow_afisha" title="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="afisha-list__name">
+                        <h4 class="h4"> Секреты Терпсихоры и неоклассики. Спектакль-концерт </h4>
+                        <div class="d-flex justify-content-between">
+                            <span class="afisha-list__place">
+                                <a href="https://yandex.ru/maps/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&source=constructorLink"
+                                    role="button" target="_blank" class="_view_air _size_small _link"
+                                    aria-haspopup="false"><span class="button__icon" aria-hidden="true"><span
+                                            class="inline-image _loaded map-widget-in-maps-button__icon"
+                                            aria-hidden="true" role="button" tabindex="-1"
+                                            style="font-size: 0px; line-height: 0;" target="_blank">
+                                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693
+                                                                                                     6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477
+                                                                                                      4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1zm0 12.079a3.079
+                                                                                                       3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </span></span><span class="button__text">Москва, Pulsar, 3-я улица Ямского поля
+                                        2, к.6
+                                    </span></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="afisha-list__time d-none d-lg-block">
+                        09 сентября
+                        <br>
+                        19.00
+                    </div>
+                    <div class="afisha-list__price">
+
+                        1500 Р
+
+                    </div>
+
+                    <a class="button afisha-list__button" href="https://dalismuse.timepad.ru/event/2478867/#register"
+                        style="color: inherit" target="_blank">
+                        <p>купить билет</p>
+                    </a>
+
+
+                </div>
+            </div>
+            <div class="content" style="display: none;">
+                <div class="content__imgAndText">
+                    <img class="card__image"
+                        src="assets/img/from_Anna/2023_01_14_Fountains-Street-Church_GRAND-RAPIDS_US_01_ktqke0.png"
+                        alt="">
+                    <div class="textContent textContent-secondCard">
+                        <h4>Первая премьерная программа проекта Puls Art</h4>
+                        <p>Неповторимый опыт, где элегантные и экспрессивные движения современного балета воссоединяются
+                            с изысканной музыкой. 10
+                            творческих секретов Людовико Эйнауди, Макса Рихтера, Олафура Орнальдса и Яна Тирсена под
+                            вдохновляющий пульс танца и
+                            света.</p>
+
+                    </div>
+                </div>
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&amp;source=constructor"
+                    width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="afisha-list__item animate__ animate__bounceInUp">
+            <div class="afisha-list__name">
+                <h4 class="h4"> Музыка Пикассо и Сальвадора Дали. Спектакль-перформанс </h4>
+                <div class="d-flex justify-content-between">
+                    <span class="afisha-list__place">
+                        <a href="https://yandex.ru/maps/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&source=constructorLink"
+                            role="button" target="_blank" class="_view_air _size_small _link"
+                            aria-haspopup="false"><span class="button__icon" aria-hidden="true"><span
+                                    class="inline-image _loaded map-widget-in-maps-button__icon" aria-hidden="true"
+                                    role="button" tabindex="-1" style="font-size: 0px; line-height: 0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693
+                                                                                 6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477
+                                                                                  4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1zm0 12.079a3.079
+                                                                                   3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z"
+                                            fill="currentColor">
+                                        </path>
+                                    </svg>
+                                </span></span><span class="button__text">Москва, Pulsar, 3-я улица Ямского поля 2,
+                                к.6</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="afisha-list__time d-none d-lg-block">
+                14 октября
+                <br>19.00
+            </div>
+            <div class="afisha-list__price">
+
+                1500 Р
+
+            </div>
+
+            <a class="button afisha-list__button button_disabled"
+                href="https://dalismuse.timepad.ru/event/2478867/#register" style="color: inherit" target="_blank">
+                <p>Скоро в продаже</p>
+            </a>
+
+        </div>
+        <div class="afisha-list__item animate__ animate__bounceInUp">
+            <div class="afisha-list__name">
+                <h4 class="h4"> Загадки Турандот. Премьера. Спектакль-концерт </h4>
+                <div class="d-flex justify-content-between">
+                    <span class="afisha-list__place">
+                        <a href="https://yandex.ru/maps/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&source=constructorLink"
+                            role="button" target="_blank" class="_view_air _size_small _link" aria-haspopup="false"
+                            target="_blank"><span class="button__icon" aria-hidden="true"><span
+                                    class="inline-image _loaded map-widget-in-maps-button__icon" aria-hidden="true"
+                                    role="button" tabindex="-1" style="font-size: 0px; line-height: 0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693
+                                                                                                     6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477
+                                                                                                      4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1zm0 12.079a3.079
+                                                                                                       3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z"
+                                            fill="currentColor">
+                                        </path>
+                                    </svg>
+                                </span></span><span class="button__text">Москва, Pulsar, 3-я улица Ямского поля 2, к.6
+                            </span></a>
+                    </span>
+                </div>
+            </div>
+            <div class="afisha-list__time d-none d-lg-block">
+                25 ноября
+                <br>19.00
+            </div>
+            <div class="afisha-list__price">
+                2500 Р
+
+            </div>
+
+            <a class="button afisha-list__button button_disabled"
+                href="https://dalismuse.timepad.ru/event/2478867/#register" style="color: inherit" target="_blank">
+                <p>Скоро в продаже</p>
+            </a>
+
+        </div>
+        <div class="afisha-list__item animate__ animate__bounceInUp">
+            <div class="afisha-list__name">
+                <h4 class="h4"> Медитация. Премьера. Экспериментальный вокально - пластический спектакль </h4>
+                <div class="d-flex justify-content-between">
+                    <span class="afisha-list__place">
+                        <a href="https://yandex.ru/maps/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&source=constructorLink"
+                            role="button" target="_blank" class="_view_air _size_small _link"
+                            aria-haspopup="false"><span class="button__icon" aria-hidden="true"><span
+                                    class="inline-image _loaded map-widget-in-maps-button__icon" aria-hidden="true"
+                                    role="button" tabindex="-1" style="font-size: 0px; line-height: 0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693
+                                                                                                     6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477
+                                                                                                      4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1zm0 12.079a3.079
+                                                                                                       3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z"
+                                            fill="currentColor">
+                                        </path>
+                                    </svg>
+                                </span></span><span class="button__text">Москва, Pulsar, 3-я улица Ямского поля 2, к.6
+                            </span></a>
+                    </span>
+                </div>
+            </div>
+            <div class="afisha-list__time d-none d-lg-block">
+                17 февраля
+                <br>19.00
+            </div>
+            <div class="afisha-list__price">
+                2500 Р
+
+            </div>
+
+            <a class="button afisha-list__button button_disabled"
+                href="https://dalismuse.timepad.ru/event/2478867/#register" style="color: inherit" target="_blank">
+                <p>Скоро в продаже</p>
+            </a>
+
+        </div>
+
+    </div>
+    <div class="card card-fifth animate animate__flipInX">
+        <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac76c236d35afa618bf05a0943337bd2e37d3544c36140b553f9ec3fdcb92934d&amp;source=constructor"
+            width="100%" height="400" frameborder="0"></iframe>
+    </div>
+    <footer class="card footer animate__ animate__flash">
+        <div class="textContent">
+            <h2 class="card-fourth__title">Как нас найти</h2>
+            <div class="card-fourth__content">
+                <div class="emailAndSocials">
+                    <div class="emailContent">
+                        <h5>Куда писать</h5>
+                        <a class="email" href="mailto:averdera.production@gmail.com" target="_blank">
+                            <h6>averdera.production@gmail.com</h6>
+                        </a>
+                    </div>
+                    <div class="socialsContent">
+                        <h5>Месседжеры и соц сети</h5>
+                        <a target="_blank" href="https://www.youtube.com/@averdera3242" id="yt_icon">
+                            <img class="social_icon_footer white_icon" src="assets/img/youtb.svg" alt="">
+                            <img class="social_icon_footer black_icon"
+                                src="assets/img/YouTube-Icon-Almost-Black-Logo.wine.svg" alt="">
+                        </a>
+
+                        <a target="_blank" href="https://vk.com/verde_anna" id="vk_icon">
+                            <img class="social_icon_footer white_icon" src="assets/img/vk.svg" alt="">
+                            <img class="social_icon_footer black_icon" src="assets/img/VK_black_Logo.svg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="phoneAndLocation">
+                    <div class="phoneContent">
+                        <h5>Телефон</h5>
+                        <a class="phone" href="tel:+79161377108" target="_blank">
+                            <h6>+7 (916) 137-71-08</h6>
+                        </a>
+                    </div>
+                    <div class="locationContent">
+                        <h5>Где находится</h5>
+                        <a href="https://yandex.ru/maps/?um=constructor%3A39b308c25cc58fc247999233354a592b94f30fe387cf16de435525a47324431d&source=constructorLink"
+                            role="button" target="_blank" class="_view_air _size_small _link"
+                            aria-haspopup="false"><span class="button__icon" aria-hidden="true"><span
+                                    class="inline-image _loaded map-widget-in-maps-button__icon" aria-hidden="true"
+                                    role="button" tabindex="-1" style="font-size: 0px; line-height: 0;">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 1a9.002 9.002 0 0 0-6.366 15.362c1.63 1.63 5.466 3.988 5.693
+                                                         6.465.034.37.303.673.673.673.37 0 .64-.303.673-.673.227-2.477
+                                                          4.06-4.831 5.689-6.46A9.002 9.002 0 0 0 12 1zm0 12.079a3.079
+                                                           3.079 0 1 1 0-6.158 3.079 3.079 0 0 1 0 6.158z"
+                                            fill="currentColor">
+                                        </path>
+                                    </svg>
+                                </span></span><span class="button__text">Москва
+                                3-я ул. Ямского Поля, 2, корп. 6
+                            </span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/splide.min.js"> </script>
+    <script src="assets/js/splide-extension-auto-scroll.js"></script>
+    <script src="https://kit.fontawesome.com/a8328fd8d4.js" crossorigin="anonymous"></script>
+    <script src="assets/js/puls-art.js"></script>
+</body>
+
+</html>

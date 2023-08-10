@@ -81,6 +81,24 @@ const PULS_ART = {
 
 }
 
+
+// $(window).load(function () {
+//     var preloader = $("#preloader");
+//     alert('window is loaded');
+//     console.log('window is loaded')
+//     preloader.toggleClass('.hidden')
+
+// })
+
+
+$(window).on("load", function () {
+    var preloader = $("#preloader");
+    // alert('window is loaded');
+    // console.log('window is loaded');
+    preloader.toggleClass('hidden')
+})
+
+
 $('.head').click(function () {
     $(this).toggleClass('active');
     $(this).parent().find('.arrow').toggleClass('arrow-animate');

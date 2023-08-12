@@ -17,4 +17,4 @@ jobs:
         server: annaverde.beget.tech
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /
+        server-dir: /pulsart/public_html/

@@ -280,6 +280,10 @@ body {
     }
 }
 
+.textContent {
+    padding: 20px 30px;
+}
+
 /* ================================================== 
                           ANIMATIONS
 ===================================================== */
@@ -296,6 +300,55 @@ body {
 
 .card-fourth {
     flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.textContent-thirdCard,
+.textContent-secondCard {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    /* width: auto; */
+}
+
+@media (min-width: 1070px) {
+
+    .textContent-thirdCard,
+    .textContent-secondCard {
+        width: 50%;
+    }
+}
+
+
+
+
+.textContent-thirdCard p,
+.textContent-secondCard p {
+    color: white;
+
+}
+
+.textContent__overlay h1 {
+    text-transform: uppercase;
+}
+
+.textContent__overlay {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    /* justify-self: center;
+    align-self: flex-end; */
+    position: absolute;
+    top: 24%;
 }
 
 
@@ -327,65 +380,49 @@ body {
 }
 
 
-.card-first__overlayContent h1 {
+.card-first h1 {
     display: none;
 }
 
-.card-first__overlayContent a {
+.card-first a {
     color: inherit;
     /* align-self: flex-end;
     justify-self: center; */
     margin-top: auto;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    position: absolute;
+    /* bottom: 3%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    display: flex;
+    flex: 1;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 4%;
 }
 
 @media (min-width: 620px) {
-    .card-first__overlayContent h1 {
+    .card-first h1 {
         display: block;
     }
 }
 
-.card-first__overlayContent h3 {
+.card-first h3 {
     display: none;
 }
 
-@media (min-width: 820px) {
-    .card-first__overlayContent h3 {
+@media (min-width: 1000px) {
+    .card-first h3 {
         display: block;
     }
-}
-
-.textContent {
-    margin: 20px 30px;
-}
-
-
-
-.textContent-thirdCard,
-.textContent-secondCard {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-}
-
-.textContent-thirdCard p,
-.textContent-secondCard p {
-    color: white;
-
-}
-
-.textContent__overlay h1 {
-    text-transform: uppercase;
-}
-
-.textContent__overlay {
-    width: 100%;
-    text-align: center;
-    margin-top: auto;
-    /* justify-self: center;
-    align-self: flex-end; */
 }
 
 .textContent-thirdCard h2,
@@ -1232,7 +1269,7 @@ video {
     width: 14em;
     height: 14em;
     color: white;
-    background: #111;
+    /* background: #111; */
     height: 100vh;
     width: 100%;
     position: fixed;

@@ -752,6 +752,10 @@ video {
     transform: rotate(90deg);
 }
 
+.splide__pagination {
+    display: none;
+}
+
 
 /* ==================================================
                         AFISHA

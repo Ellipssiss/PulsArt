@@ -70,15 +70,16 @@ const PULS_ART = {
         })
     },
 
+    initializeWow: function() {
+        new WOW().init();
+    },
+
     initialize() {
         this.initSplide();
         this.initScrollToTopButton();
-        this.initDarkThemeToggler()
+        this.initDarkThemeToggler();
+        //this.initializeWow();
     }
-
-
-
-
 }
 
 

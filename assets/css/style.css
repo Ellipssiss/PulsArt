@@ -256,6 +256,7 @@ body {
 .card-third .card__image,
 .card-second .card__image {
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
